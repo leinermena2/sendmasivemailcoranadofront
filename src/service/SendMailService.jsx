@@ -9,7 +9,7 @@ const sendMailBulk = async (datas) => {
       .post(`${VITE_API_URL}/enviar-correo`, datas, {
         headers: {
           "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": "https://main.d2ycgzclkv91hm.amplifyapp.com/",
+          "Access-Control-Allow-Origin": "https://main.d2ycgzclkv91hm.amplifyapp.com",
           "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
         },
       })
